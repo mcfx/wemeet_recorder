@@ -6,7 +6,7 @@
 
 建议在 Linux 下操作。
 
-首先安装 VirtualBox，然后安装一个 Windows 虚拟机（建议 Win7 或者 Win10 LTSC 等）。虚拟机最好不要加声卡，而是用 VB-CABLE 这种虚拟声卡。虚拟机内部安装 python3、ffmpeg、腾讯会议，以及 ![screen-capture-recorder-to-video-windows-free](https://github.com/rdp/screen-capture-recorder-to-video-windows-free)。然后用 pip 安装 pywin32 和 requests 两个包。
+首先安装 VirtualBox，然后安装一个 Windows 虚拟机（建议 Win7 或者 Win10 LTSC 等）。虚拟机最好不要加声卡，而是用 VB-CABLE 这种虚拟声卡。虚拟机内部安装 python3、ffmpeg、腾讯会议，以及 [screen-capture-recorder-to-video-windows-free](https://github.com/rdp/screen-capture-recorder-to-video-windows-free)。然后用 pip 安装 pywin32 和 requests 两个包。
 
 接下来把 client 拷进虚拟机，然后想办法让他开机自动运行。
 
